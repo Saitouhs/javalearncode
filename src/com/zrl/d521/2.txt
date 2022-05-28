@@ -1,0 +1,50 @@
+
+	cout << "Hello world\n";
+	MYSQL conn;
+
+	if (mysql_init(&conn) == NULL){
+		cout << "mysql_init()failed";
+		return -1;}
+
+	mysql_options(&conn, MYSQL_SET_CHARSET_NAME, "gbk");
+
+	if (0 != mysql_library_init(0, NULL, NULL)) {
+		cout << "mysql_library_init()failed" << endl;
+		return -1;}
+
+	if (NULL == mysql_real_connect(&conn, "127.0.0.1", "root", "114514", "javtest", 3306, NULL,	 0))
+	{
+		cout << "mysql_real_connect()failed";
+		return -1;
+	}
+
+	MYSQL_RES* res; //查询结果集
+	MYSQL_ROW row;	//存放一条数据记录，二维数组
+
+	const char* sql= "select * from zrl1";
+	/*
+	string str;
+
+	cin >> str;
+	sql = str.c_str();*/
+
+	mysql_query(&conn, sql);
+	res = mysql_store_result(&conn);
+	while(row = mysql_fetch_row(res))
+	{
+		cout << row[0] << "\t|\t" << row[1] <<"\t|\t"<<row[2] << endl;
+	}
+	sql = "insert into zrl1 values (6,'zs3',111.2),(7,'ls3',2222.2)";
+	mysql_query(&conn, sql);
+
+	sql = "select * from zrl1";
+	mysql_query(&conn, sql);
+
+	res = mysql_store_result(&conn);
+	while (row = mysql_fetch_row(res))
+	{
+		cout << row[0] << "\t|\t" << row[1] << "\t|\t" << row[2] << endl;
+	}
+	mysql_free_result(res);
+	mysql_close(&conn);
+
