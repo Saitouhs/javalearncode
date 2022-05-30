@@ -14,7 +14,7 @@ public class zrl2 {
 
 			st.executeUpdate("set sql_mode ='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' ");
 			System.out.print("zrlsql>");
-			while (!scanner.equals(';')) {
+			while (scanner.hasNext()) {
 				String sql = scanner.nextLine();
 				if (sql.equals("quit") || sql.equals("exit"))
 					System.exit(1);

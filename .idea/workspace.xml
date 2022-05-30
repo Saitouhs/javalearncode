@@ -4,65 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f44d9b6d-705a-45d7-a4cb-fadbedef4245" name="Changes" comment="05281445">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f357343c-f7f8-41c0-a4ab-a2c2871f3cb2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f357343c-f7f8-41c0-a4ab-a2c2871f3cb2/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f357343c-f7f8-41c0-a4ab-a2c2871f3cb2/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f357343c-f7f8-41c0-a4ab-a2c2871f3cb2/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f357343c-f7f8-41c0-a4ab-a2c2871f3cb2/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d510/zrl5101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d510/zrl5102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d511/zrl5111.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d511/zrl5112.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d511/zrl5113.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d511/zrl5114.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d511/zrl5115.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d528/hasMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d528/zrlsql.java" afterDir="false" />
+    <list default="true" id="f44d9b6d-705a-45d7-a4cb-fadbedef4245" name="Changes" comment="05301453">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aef028e-a178-4cb8-b4fe-3caefc94e3ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1aef028e-a178-4cb8-b4fe-3caefc94e3ae.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jcd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jcd.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/051/zrl1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/051/zrl2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/0511/zrl1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/0511/zrl2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/0511/zrl3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/0511/zrl4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/0511/zrl5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/0511/zrl6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d511/zrl5116.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d512/zrl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d512/zrl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d512/zrl10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d512/zrl10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d512/zrl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d512/zrl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d512/zrl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d512/zrl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d512/zrl4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d512/zrl4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d512/zrl5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d512/zrl5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d512/zrl6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d512/zrl6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d512/zrl7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d512/zrl7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d512/zrl9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d512/zrl9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d513/zrl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d513/zrl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d513/zrl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d513/zrl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d513/zrl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d513/zrl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d513/zrl4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d513/zrl4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d513/zrl5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d513/zrl5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d520/zrl5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d520/zrl5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d521/zrl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d521/zrl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d521/zrl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d521/zrl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d521/zrl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d521/zrl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d521/zrl4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d521/zrl4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d525/zrl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d525/zrl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d525/zrl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d525/zrl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d527/dao/zrlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d527/dao/zrlDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/Score.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/mapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d528/mapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/sql.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zrl/d530/zrlTcpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d530/zrlTcpUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +30,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -114,13 +74,41 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="应用程序.zrlTcpServer">
-    <configuration name="com.zrl.d528.zrlsql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zrl.d528.zrlsql" />
+  <component name="RunManager" selected="Application.com.zrl.d528.zrlTcpClient">
+    <configuration name="com.zrl.d528.zrlTcpClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zrl.d528.zrlTcpClient" />
+      <module name="jcd" />
+      <option name="PROGRAM_PARAMETERS" value="0.0.0.0 5678" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrl.d528.ipAddressIllegal" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.zrl.d528.zrlTcpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zrl.d528.zrlTcpServer" />
+      <module name="jcd" />
+      <option name="PROGRAM_PARAMETERS" value="5678" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrl.d528.ipAddressIllegal" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="threadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zrl.d530.threadTest" />
       <module name="jcd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zrl.d528.*" />
+          <option name="PATTERN" value="com.zrl.d530.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zrl22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zrl.d527.dao.zrl22" />
+    <configuration name="zrl3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zrl.d521.zrl3" />
       <module name="jcd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zrl.d527.dao.*" />
+          <option name="PATTERN" value="com.zrl.d521.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,40 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zrlTcpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zrl.d528.zrlTcpClient" />
-      <module name="jcd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zrl.d528.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zrlTcpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zrl.d528.zrlTcpServer" />
-      <module name="jcd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zrl.d528.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="应用程序.zrlTcpServer" />
-        <item itemvalue="应用程序.zrl2" />
-        <item itemvalue="应用程序.zrlTcpClient" />
-        <item itemvalue="应用程序.com.zrl.d528.zrlsql" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Application.com.zrl.d528.zrlTcpClient" />
+      <item itemvalue="Application.com.zrl.d528.zrlTcpServer" />
+      <item itemvalue="Application.threadTest" />
+      <item itemvalue="Application.zrl2" />
+      <item itemvalue="Application.zrl3" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -203,7 +164,10 @@
       <workItem from="1653716395797" duration="1429000" />
       <workItem from="1653717848693" duration="5524000" />
       <workItem from="1653725338999" duration="2164000" />
-      <workItem from="1653870744990" duration="341000" />
+      <workItem from="1653870744990" duration="5600000" />
+      <workItem from="1653877556976" duration="2011000" />
+      <workItem from="1653879593834" duration="19251000" />
+      <workItem from="1653899111837" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="0528 整理文件路径">
       <created>1653708186346</created>
@@ -219,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653708230875</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="05300842">
+      <created>1653871388870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653871388870</updated>
+    </task>
+    <task id="LOCAL-00004" summary="05301453">
+      <created>1653893649297</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653893649297</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +217,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0528 整理文件路径" />
     <MESSAGE value="05281445" />
-    <option name="LAST_COMMIT_MESSAGE" value="05281445" />
+    <MESSAGE value="05300842" />
+    <MESSAGE value="05301453" />
+    <option name="LAST_COMMIT_MESSAGE" value="05301453" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/jcd$zrlTcpClient.ic" NAME="zrlTcpClient Coverage Results" MODIFIED="1653724770554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
