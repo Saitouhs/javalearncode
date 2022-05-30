@@ -9,7 +9,6 @@ public class mapTest {
 			char ch = str.charAt(i);
 			if (ch >= '0' && ch <= '9') {
 				m.merge(ch, 1, Integer::sum);
-
 			}
 		}
 		return m;
@@ -27,7 +26,7 @@ public class mapTest {
 
 
 	public static void main(String[] args) {
-		/*Map<Character, Integer> m = count("zrls12dfdee223");
+		Map<Character, Integer> m = count("zrls12dfdee223");
 		System.out.println(m.keySet());
 		System.out.println(m.values());
 		for (Character ch : m.keySet()) {
@@ -41,7 +40,7 @@ public class mapTest {
 		s.add("ls");
 		s.add("zs");
 		s.add(new String("ls"));
-		System.out.println(s.size());*/
+		System.out.println(s.size());
 
 
 

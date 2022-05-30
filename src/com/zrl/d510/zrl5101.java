@@ -1,4 +1,4 @@
-class zrl1
+public class zrl5101
 {
     public static void main(String [] args)
     {

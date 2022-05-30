@@ -1,4 +1,4 @@
-class test 
+public class  zrl5111
 {
     public static void main(String[] args)
     {

@@ -1,3 +1,4 @@
+package com.zrl.d512;
 public class zrl10 {
 
     public static void main( String[] args) {

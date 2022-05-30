@@ -1,4 +1,6 @@
-public class zrl2 
+
+package com.zrl.d512;
+public class zrl2
 {
     public static void main(String[] args) {
 

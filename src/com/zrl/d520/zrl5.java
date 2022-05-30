@@ -18,7 +18,7 @@ public class zrl5 {
 	public static void main(String[] args) {
 		String str = "1234561523asd123sadaw";
 
-		Scanner scanner = new Scanner()
+		Scanner scanner = new Scanner(System.in);
 
 		int [] cnt =count(str);
 		for (int i=0;i<10;i++)

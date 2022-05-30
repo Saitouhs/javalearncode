@@ -1,6 +1,6 @@
 
 
-public class zrl2 {
+public class zrl5102 {
 
 	public static void main(String[] args) {
 		

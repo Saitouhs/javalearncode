@@ -1,9 +1,9 @@
-class zrl2
+public class zrl5113
 {
     public  static void main(String []args)
     {
-        byte a = 'B';//65
-        while (a++>50)
+        short a = 'A';//65
+        while (a>50)
         {
             a++;
         }

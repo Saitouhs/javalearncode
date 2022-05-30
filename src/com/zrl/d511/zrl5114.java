@@ -1,13 +1,13 @@
-class zrl3
+public class zrl5114
 {
     public  static void main(String []args)
     {
-        short a = 'A';//65
+        char a = 'A';//65
         while (a>50)
         {
             a++;
         }
         
-        System.out.printf("%d\n",a);
+        System.out.printf("%d\n",(int)a);
     }
 }

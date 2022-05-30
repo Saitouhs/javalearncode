@@ -4,18 +4,17 @@ import com.zrl.d527.entity.Course;
 import com.zrl.d527.entity.Score;
 import com.zrl.d527.entity.Student;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class zrlDao {
 
 	private static Connection getConn() {
 		Connection con = null;
 		try {//静态函数
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/javtest?serverTimezone=UTC", "root", "114514");
+			con = DriverManager.getConnection("jdbc:mysql://rm-bp11ur36179ijw890yo.mysql.rds.aliyuncs.com:3306/student?serverTimezone=UTC", "saitou", "Aa114514@");
 		} catch (Exception e) {
 			System.err.println(e.getMessage());
 		}
@@ -34,7 +33,7 @@ public class zrlDao {
 			}//统计表内行数
 			if (cnt == 0)
 				return null;
-			stu = new Student[cnt];//建立数组存储数据
+			stu = new Student[cnt];//建立数组存储 地址
 
 			rs = st.executeQuery("select * from student");
 			int i = 0;
@@ -55,7 +54,7 @@ public class zrlDao {
 	}
 
 
-	public static Score[] getScore(){
+	public static Score[] getScore() {
 		Score scr[] = null;
 		try (Connection con = getConn()) {
 			Statement st = con.createStatement();//查询
@@ -87,7 +86,7 @@ public class zrlDao {
 	}
 
 
-	public static Course[] getCourse(){
+	public static Course[] getCourse() {
 		Course[] crs = null;
 		try (Connection con = getConn()) {
 			Statement st = con.createStatement();//查询
@@ -116,5 +115,29 @@ public class zrlDao {
 		}
 		return crs;
 
+	}
+
+
+	public static ArrayList<Map<String, Object>> getAny(String sql) {
+
+		ArrayList<Map<String, Object>> lstData = new ArrayList<Map<String, Object>>();
+		try (Connection conn = getConn()) {
+			Statement st = conn.createStatement();
+			ResultSet rs = st.executeQuery(sql);
+			while (rs.next()) {
+				ResultSetMetaData md = rs.getMetaData();
+				while (rs.next()) {
+					Map<String, Object> m = new HashMap<String, Object>();
+					for (int i = 1; i <= md.getColumnCount(); i++) {
+						m.put(md.getColumnName(i), rs.getObject(md.getColumnName(i)));
+					}
+					lstData.add(m);
+				}
+			}
+		} catch (Exception e) {
+			System.err.println(e.getMessage());
+		}
+
+		return lstData;
 	}
 }
