@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f44d9b6d-705a-45d7-a4cb-fadbedef4245" name="Changes" comment="05301453">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b1259dd-2cb8-4f77-b162-f4c47aae5511/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aef028e-a178-4cb8-b4fe-3caefc94e3ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1aef028e-a178-4cb8-b4fe-3caefc94e3ae.xml" afterDir="false" />
+    <list default="true" id="f44d9b6d-705a-45d7-a4cb-fadbedef4245" name="Changes" comment="05301641">
+      <change afterPath="$PROJECT_DIR$/src/com/zrl/d528/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zrl/d528/SreverThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zrl/d528/ipIllegal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zrl/d528/parameterFalut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zrl/d528/portIllegal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zrl/d601/mysDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zrl/d601/zrlCilent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zrl/d601/zrlServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d530/zrlTcpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d530/zrlTcpUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,30 +51,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/javacode/mysql-connector-java-8.0.16.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/javacode/jcd/src/com/zrl/d601",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.com.zrl.d528.zrlTcpClient">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javacode\jcd\src\com\zrl\d601" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.com.zrl.d528.zrlTcpServer">
     <configuration name="com.zrl.d528.zrlTcpClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zrl.d528.zrlTcpClient" />
       <module name="jcd" />
@@ -143,12 +148,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.zrl.d528.zrlTcpClient" />
-      <item itemvalue="Application.com.zrl.d528.zrlTcpServer" />
-      <item itemvalue="Application.threadTest" />
-      <item itemvalue="Application.zrl2" />
-      <item itemvalue="Application.zrl3" />
+      <item itemvalue="应用程序.com.zrl.d528.zrlTcpClient" />
+      <item itemvalue="应用程序.com.zrl.d528.zrlTcpServer" />
+      <item itemvalue="应用程序.threadTest" />
+      <item itemvalue="应用程序.zrl2" />
+      <item itemvalue="应用程序.zrl3" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.com.zrl.d528.zrlTcpClient" />
+        <item itemvalue="应用程序.com.zrl.d528.zrlTcpServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -167,7 +178,11 @@
       <workItem from="1653870744990" duration="5600000" />
       <workItem from="1653877556976" duration="2011000" />
       <workItem from="1653879593834" duration="19251000" />
-      <workItem from="1653899111837" duration="750000" />
+      <workItem from="1653899111837" duration="982000" />
+      <workItem from="1653900197799" duration="1373000" />
+      <workItem from="1654012460878" duration="4130000" />
+      <workItem from="1654080382701" duration="577000" />
+      <workItem from="1654129472378" duration="3018000" />
     </task>
     <task id="LOCAL-00001" summary="0528 整理文件路径">
       <created>1653708186346</created>
@@ -197,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653893649297</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="05301641">
+      <created>1653900126593</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653900126593</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +241,8 @@
     <MESSAGE value="05281445" />
     <MESSAGE value="05300842" />
     <MESSAGE value="05301453" />
-    <option name="LAST_COMMIT_MESSAGE" value="05301453" />
+    <MESSAGE value="05301641" />
+    <option name="LAST_COMMIT_MESSAGE" value="05301641" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/jcd$zrlTcpClient.ic" NAME="zrlTcpClient Coverage Results" MODIFIED="1653724770554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

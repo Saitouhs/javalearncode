@@ -12,49 +12,6 @@ import java.util.Scanner;
 import static com.zrl.d530.zrlTcpUtil.*;
 
 
-
-class portIllegl extends Exception {
-	public portIllegl(int port) {
-		super("port " + port + " is illegal.\nPlease enter a value between 5000 and 9000.\n");
-	}
-}
-
-class parameterFalut extends Exception {
-	public parameterFalut() {
-		super("Parameter number error.\nPlease check your input.");
-	}
-}
-
-class ipIllegal extends Exception {
-	public ipIllegal(String s) {
-		System.err.println("ip address " + s + " is illegal.\nPlease enter a valid IPv4 address.");
-	}
-}
-
-class CilentThread extends Thread {
-	private Socket socket;
-
-	public CilentThread(Socket socket) {
-		this.socket = socket;
-	}
-
-	@Override
-	public void run() {
-		byte b[] = new byte[300];
-		while (true) {
-			try {
-				int len = socket.getInputStream().read(b);
-				System.out.println("\t\t\t\t\t\t\t\t\t^-^:" + new String(b, 0, len));
-			} catch (Exception e) {
-				return;
-			} finally {
-
-			}
-		}
-	}
-}
-
-
 public class zrlTcpClient {
 
 	public static void main(String[] args) throws IOException {
@@ -70,7 +27,7 @@ public class zrlTcpClient {
 				ipaddr = args[0];
 				port = Integer.parseInt(args[1]);
 				if (port > 9000 || port < 5000)
-					throw new portIllegl(port);
+					throw new portIllegal(port);
 				else if (!isPort(ipaddr)) {
 					throw new ipIllegal(ipaddr);
 				}
@@ -81,7 +38,7 @@ public class zrlTcpClient {
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.err.println("usage : needs parameter\nusage:java zrlTcpClient ipaddress port");
 			return;
-		} catch (portIllegl  |ipIllegal | parameterFalut e) {
+		} catch (portIllegal | ipIllegal | parameterFalut e) {
 			System.err.println(e.getMessage() + "\nusage:java zrlTcpClient ipaddress port");
 			return;
 		} catch (UnknownHostException |NumberFormatException  e) {
@@ -96,7 +53,7 @@ public class zrlTcpClient {
 
 			Scanner scanner = new Scanner(System.in);
 			OutputStream out = socket.getOutputStream();
-			new CilentThread(socket).start();
+			new ClientThread(socket).start();
 			//System.out.print("zrlchat>");
 			while (scanner.hasNextLine()) {
 				String s = scanner.nextLine();
