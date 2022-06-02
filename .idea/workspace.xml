@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f44d9b6d-705a-45d7-a4cb-fadbedef4245" name="Changes" comment="06020932">
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d601/mysUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zrl/d601/zrlClient.java" afterDir="false" />
+    <list default="true" id="f44d9b6d-705a-45d7-a4cb-fadbedef4245" name="Changes" comment="06021344">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/SreverThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d528/SreverThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/portIllegal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d528/portIllegal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d528/zrlTcpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d530/zrlTcpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d530/zrlTcpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d601/zrlCilent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zrl/d601/zrlServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zrl/d601/zrlServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,14 +69,13 @@
       <recent name="D:\javacode\jcd\src\com\zrl\d601" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.zrl.d528.zrlTcpServer">
-    <configuration name="com.zrl.d528.zrlTcpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zrl.d528.zrlTcpServer" />
+  <component name="RunManager" selected="Application.syn">
+    <configuration name="com.zrl.d601.mysServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zrl.d601.mysServer" />
       <module name="jcd" />
-      <option name="PROGRAM_PARAMETERS" value="5678" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zrl.d528.ipAddressIllegal" />
+          <option name="PATTERN" value="com.zrl.d601.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.zrl.d601.mysServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zrl.d601.mysServer" />
+    <configuration name="syn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zrl.d602.syn" />
       <module name="jcd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zrl.d601.*" />
+          <option name="PATTERN" value="com.zrl.d602.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +137,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.zrl.d528.zrlTcpServer" />
       <item itemvalue="Application.com.zrl.d601.mysServer" />
+      <item itemvalue="Application.syn" />
       <item itemvalue="Application.zrl3" />
       <item itemvalue="Application.zrlClient" />
       <item itemvalue="Application.zrlTcpClient" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.syn" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -175,7 +171,7 @@
       <workItem from="1654012460878" duration="4130000" />
       <workItem from="1654080382701" duration="577000" />
       <workItem from="1654129472378" duration="10687000" />
-      <workItem from="1654148307344" duration="318000" />
+      <workItem from="1654148307344" duration="1588000" />
     </task>
     <task id="LOCAL-00001" summary="0528 整理文件路径">
       <created>1653708186346</created>
@@ -219,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654133572631</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="06021344">
+      <created>1654148676674</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654148676674</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +246,8 @@
     <MESSAGE value="05301453" />
     <MESSAGE value="05301641" />
     <MESSAGE value="06020932" />
-    <option name="LAST_COMMIT_MESSAGE" value="06020932" />
+    <MESSAGE value="06021344" />
+    <option name="LAST_COMMIT_MESSAGE" value="06021344" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/jcd$zrlTcpClient.ic" NAME="zrlTcpClient Coverage Results" MODIFIED="1653724770554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
