@@ -27,14 +27,14 @@ public class SreverThread extends Thread {
 				try {
 					con = DriverManager.getConnection("jdbc:mysql://rm-bp11ur36179ijw890yo.mysql.rds.aliyuncs.com:3306/chat?serverTimezone=UTC", "saitou", "Aa114514@");
 					java.sql.Statement st = con.createStatement();
-					String sql = "insert into msginfo(clientid,msg,msgdate) values (\" " + socket.getRemoteSocketAddress().toString() + "\",\"" + msg + "\",now()); ";
+					String sql = "insert into msginfo(clientid,msg,msgdate) values (\" " + socket.getRemoteSocketAddress().toString()+ "\",\"" + msg + "\",now()); ";
 					st.executeUpdate(sql);
 				} catch (Exception e) {
 					System.err.println(e.getMessage());
 				}
 
 				for (Socket skt : lstSocket) {
-					if (skt == socket) continue;
+					if (skt==socket) continue;
 					skt.getOutputStream().write(b, 0, len);
 				}
 

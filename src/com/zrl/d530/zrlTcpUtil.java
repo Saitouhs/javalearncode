@@ -6,13 +6,15 @@ import java.util.regex.Pattern;
 
 public class zrlTcpUtil {
 
-	public static boolean isPort(String port) {
-		int lf =port.length();
-		String a[]= port.split("\\.");
-		if(a.length>4)
+	public static boolean isIp(String str) {
+		int lf =str.length();
+		if(lf>15||lf<7)
+			return false;
+		String ip[]= str.split("\\.");
+		if(ip.length>4)
 			return false;
 		for(int i=0;i<4;i++)
-			if(Integer.parseInt(a[i])<0||Integer.parseInt(a[i])>256)
+			if(Integer.parseInt(ip[i])<0||Integer.parseInt(ip[i])>256)
 				return false;
 		return true;
 	}

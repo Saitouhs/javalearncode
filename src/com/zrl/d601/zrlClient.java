@@ -1,5 +1,9 @@
-package com.zrl.d528;
+package com.zrl.d601;
 
+import com.zrl.d528.ClientThread;
+import com.zrl.d528.ipIllegal;
+import com.zrl.d528.parameterFalut;
+import com.zrl.d528.portIllegal;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -9,10 +13,10 @@ import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
-import static com.zrl.d530.zrlTcpUtil.*;
+import static com.zrl.d530.zrlTcpUtil.isIp;
+import static com.zrl.d601.mysUtil.isport;
 
-
-public class zrlTcpClient {
+public class zrlClient {
 
 	public static void main(String[] args) throws IOException {
 		int port = 0;
@@ -25,10 +29,8 @@ public class zrlTcpClient {
 				throw new parameterFalut();
 			else {
 				ipaddr = args[0];
-				port = Integer.parseInt(args[1]);
-				if (port > 9000 || port < 5000)
-					throw new portIllegal(port);
-				else if (!isIp(ipaddr)) {
+				port = isport(args[1]);
+				if (!isIp(ipaddr)) {
 					throw new ipIllegal(ipaddr);
 				}
 
@@ -41,7 +43,7 @@ public class zrlTcpClient {
 		} catch (portIllegal | ipIllegal | parameterFalut e) {
 			System.err.println(e.getMessage() + "\nusage:java zrlTcpClient ipaddress port");
 			return;
-		} catch (UnknownHostException |NumberFormatException  e) {
+		} catch (UnknownHostException | NumberFormatException e) {
 			System.err.println("ip address " + args[0] + " is illegal.\nPlease enter a valid IPv4 address.");
 			return;
 		} catch (ConnectException e) {
@@ -54,22 +56,20 @@ public class zrlTcpClient {
 			Scanner scanner = new Scanner(System.in);
 			OutputStream out = socket.getOutputStream();
 			new ClientThread(socket).start();
-			//System.out.print("zrlchat>");
 			while (scanner.hasNextLine()) {
 				String s = scanner.nextLine();
 				if (s.equals("exit") || s.equals("quit"))
 					System.exit(1);
 				if (s.length() > 0) {
 					out.write(s.getBytes(StandardCharsets.UTF_8));
-					//System.out.print("zrlchat>");
 				}
 			}
-		}catch (Exception e){
-			//System.err.println(e.getMessage());
+		} catch (Exception e) {
+			System.err.println(e.getMessage());
 
 		} finally {
 
 		}
 	}
-
 }
+
