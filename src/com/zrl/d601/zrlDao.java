@@ -10,7 +10,7 @@ import java.sql.*;
  * @date 2022/5/27 14:45
  */
 
-public class mysDao {
+public class zrlDao {
     private static Connection getConn() {
         Connection con = null;
         try {

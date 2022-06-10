@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="homepage.ico">
+  <title>主页</title>
+</head>
+
+<body>
+<div style="width: 80%;margin: 0 auto;"></div>
+<div style="width: 100%; height: 100px ;border: 1px solid red">
+  <img src="b.png" id="adv" width=100% height=100%>
+</div>
+
+<div>
+  <!-- 功能 -->
+  <div>
+    <a href="">发现</a>
+    <a href="">我的</a>
+    <a href="">圈子</a>
+  </div>
+  <div>
+    <!-- table显示表 -->
+    <table>
+      <thead>
+      <tr>
+        <td>歌曲标题</td>
+        <td>歌曲时长</td>
+        <td>歌手</td>
+        <td>专辑</td>
+        <td></td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1w</td>
+        <td>2w</td>
+        <td>3w</td>
+        <td>4w</td>
+        <td>
+          <a href="javascript:alert('播放')"><img src="mscplay.png" width=10px height=10px></a>
+        </td>
+      </tr>
+      <tr>
+        <td>1a</td>
+        <td>2a</td>
+        <td>3a</td>
+        <td>4a</td>
+        <td>
+          <a href="javascript:alert('播放')"><img src="mscplay.png" width=10px height=10px></a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div>下</div>
+</body>
+<script>
+  var imgs = ["a.png", "b.png", "c.png", "d.png", "e.png"];
+  let i = 0;
+  var pic = document.getElementById("adv");
+
+  function changePic() {
+    i++;
+    if (i >= imgs.length)
+      i = 0;
+    pic.src = imgs[i];
+  }
+  setInterval("changePic()", 1000);
+</script>
+
+</html>

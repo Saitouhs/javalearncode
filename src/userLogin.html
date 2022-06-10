@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="cldmsc.ico">
+    <link rel="stylesheet" href="form.css" type="text/css" media="all">
+    <title>用户登录</title>
+    <style>
+
+    </style>
+
+    <script>
+        function login() {
+            var name = document.all.u_name.value;
+            var pass = document.getElementById("u_pass").value;
+            console.log(pass);
+            alert(name);
+        }
+    </script>
+
+</head>
+
+<body>
+<form action="javascript:alert('未实现')">
+
+    用 户 名:<input type="text" name="u_name" id="u_name" placeholder="用户名"><br> 设置密码:
+    <input type="password" name="u_pass" id="u_pass" placeholder="请输入密码"><br>
+    <input type="button" value="登录" onclick="login()">
+    <input type="button" value="还未注册？" onclick="window.open('userRes.html')" )><br>
+
+</form>
+</body>
+<script>
+</script>
+
+</html>

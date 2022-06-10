@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class zrlDao {
 
-	private static Connection getConn() {
+	public static Connection getConn() {
 		Connection con = null;
 		try {//静态函数
 			con = DriverManager.getConnection("jdbc:mysql://rm-bp11ur36179ijw890yo.mysql.rds.aliyuncs.com:3306/student?serverTimezone=UTC", "saitou", "Aa114514@");
