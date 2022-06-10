@@ -1,5 +1,8 @@
 package com.zrl.d610;
 
+import java.util.Collection;
+import java.util.Collections;
+
 public class ZrlUtil{
 	/**
 	 * @param str
@@ -19,6 +22,9 @@ public class ZrlUtil{
 	}
 
 	public static void main(String[] args) {
+
+		Collection<Object> cs;
+		Collections c ;
 
 		String a= "重地";
 		String s = new String("通话");
